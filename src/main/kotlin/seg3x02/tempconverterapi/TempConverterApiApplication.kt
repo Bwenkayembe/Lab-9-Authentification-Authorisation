@@ -1,3 +1,4 @@
+
 package seg3x02.tempconverterapi
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
@@ -7,5 +8,6 @@ import org.springframework.boot.runApplication
 class TempConverterApiApplication
 
 fun main(args: Array<String>) {
-	runApplication<TempConverterApiApplication>(*args)
+    runApplication<TempConverterApiApplication>(*args)
+    println("Application is running at: http://localhost:8080")
 }
